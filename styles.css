@@ -28,6 +28,7 @@ header {
   top: 200px;
   z-index: 1;
   float: left;
+  border: 1px solid black;
 }
 .navigation-bar {
   height: 50px;
@@ -66,16 +67,16 @@ header {
   width: 328px;
   background-color: #ff2400;
   border: 1px solid black;
-  left: 35px;
+  left: 40px;
   top: 60px;
 }
 .Extra {
   position: relative;
-  height: 400px;
+  height: 350px;
   width: 512px;
   background-color: #ff2400;
   border: 1px solid black;
-  left: 373px;
+  left: 378px;
   top: -140px;
 }
 .gibberish {
@@ -85,9 +86,9 @@ header {
   background-color: white;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
-  left: 36px;
-  top: -520px;
-  color: rgb(139, 6, 6);
+  left: 41px;
+  top: -465px;
+  color: rgb(92, 90, 90);
   font-size: 15px;
 }
 .gibberish h1 {
@@ -106,7 +107,7 @@ header {
   background-image: url(https://www.whio.com/resizer/g-jUav3chxf_i2rs4hmaaHPQhvI=/1200x675/cloudfront-us-east-1.images.arcpublishing.com/cmg/XS6OY4I3MCMM35QM7CWOHVFSKU.jpg);
   background-size: cover;
   background-position: unset;
-  top: 50px;
+  top: 60px;
   left: 400px;
 }
 .box {
@@ -115,7 +116,7 @@ header {
   width: 50px;
   border: 1px solid black;
   left: 350px;
-  top: -10px;
+  top: -0px;
   background-image: url(https://i.etsystatic.com/20707442/r/il/8d8bae/2035353189/il_1140xN.2035353189_8s6q.jpg);
   background-size: cover;
 }
@@ -142,5 +143,31 @@ a {
 .event h3 {
   margin-bottom: -20px;
   color: black;
-  top: -100px;
+  top: -200px;
+  margin-top: 0px;
+}
+.event h4 {
+  margin-bottom: -20px;
+  color: gray;
+}
+.event h5 {
+  color: gray;
+}
+.event button {
+  float: right;
+  margin-top: -40px;
+  margin-right: 5px;
+}
+.info h3 {
+  margin-bottom: -20px;
+  color: rgb(92, 90, 90);
+  left: -100px;
+}
+.info h4 {
+  color: rgb(92, 90, 90);
+}
+.info {
+  left: 410px;
+  top: -220px;
+  position: relative;
 }
