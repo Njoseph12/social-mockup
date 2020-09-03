@@ -1,3 +1,146 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: red;
+  background-color: rgb(163, 163, 163);
+  box-sizing: border-box;
+  background-image: url(https://i.ebayimg.com/images/g/EkMAAOSwzkRdtc4u/s-l1600.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  height: 400px;
+  width: 850px;
+  margin: auto;
+  /* border: 1px solid black; */
+  background-image: url(https://www.osu.edu/assets/downloads/zoom-photo/ZoomBackgroundPhoto12_Ohio-Stadium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image {
+  background-color: rgb(255, 255, 255);
+  background-image: url(https://sportslogohistory.com/wp-content/uploads/2018/01/ohio_state_buckeyes_2013-pres.png);
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  top: 200px;
+  z-index: 1;
+  float: left;
+}
+.navigation-bar {
+  height: 50px;
+  width: 850px;
+  background-color: #ff2400;
+  top: 408px;
+  position: absolute;
+  border: 1px solid black;
+  margin: auto;
+}
+.button {
+  position: absolute;
+  left: 670px;
+  top: 380px;
+}
+.navbar {
+  position: absolute;
+  top: 425px;
+  left: 325px;
+}
+.name h1 {
+  background-color: rgb(190, 190, 190, 0.5);
+}
+.name h2 {
+  background-color: rgb(190, 190, 190, 0.5);
+  margin-right: 200px;
+}
+.name {
+  position: absolute;
+  top: 300px;
+  left: 280px;
+}
+.About {
+  position: relative;
+  height: 200px;
+  width: 328px;
+  background-color: #ff2400;
+  border: 1px solid black;
+  left: 35px;
+  top: 60px;
+}
+.Extra {
+  position: relative;
+  height: 400px;
+  width: 512px;
+  background-color: #ff2400;
+  border: 1px solid black;
+  left: 373px;
+  top: -140px;
+}
+.gibberish {
+  position: relative;
+  height: 150px;
+  width: 326px;
+  background-color: white;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  left: 36px;
+  top: -520px;
+  color: rgb(139, 6, 6);
+  font-size: 15px;
+}
+.gibberish h1 {
+  color: black;
+  font-size: 25px;
+  border-top: 1px solid lightgray;
+}
+.gibberish h3 {
+  border-bottom: 1px solid lightgray;
+}
+.stuff {
+  position: absolute;
+  height: 200px;
+  width: 425px;
+  background-color: rgb(253, 253, 253);
+  background-image: url(https://www.whio.com/resizer/g-jUav3chxf_i2rs4hmaaHPQhvI=/1200x675/cloudfront-us-east-1.images.arcpublishing.com/cmg/XS6OY4I3MCMM35QM7CWOHVFSKU.jpg);
+  background-size: cover;
+  background-position: unset;
+  top: 50px;
+  left: 400px;
+}
+.box {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  left: 350px;
+  top: -10px;
+  background-image: url(https://i.etsystatic.com/20707442/r/il/8d8bae/2035353189/il_1140xN.2035353189_8s6q.jpg);
+  background-size: cover;
+}
+.ohiostate {
+  position: relative;
+  z-index: 1;
+  left: -260px;
+  top: 210px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font: bolder;
+}
+.event {
+  position: relative;
+  height: 70px;
+  width: 426px;
+  background-color: white;
+  border: 1px solid black;
+  top: 105px;
+  left: 400px;
+}
+.event h3 {
+  margin-bottom: -20px;
+  color: black;
+  top: -100px;
 }
